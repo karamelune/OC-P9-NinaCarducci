@@ -51,15 +51,6 @@
             }
         </script>
 
-        <!-- Rich Snippet Google -->
-        <meta itemprop="name" content="Nina Carducci - Photographe" />
-        <meta
-            itemprop="description"
-            content="Photographe passionnée basée à Bordeaux. Je propose mes services pour capturer des moments uniques et personnalisés pour vos événements, portraits, entreprises et concerts. Ma mission est de transformer chaque instant en une œuvre d'art qui reflète la beauté et les émotions de l'instant présent." />
-        <meta
-            itemprop="image"
-            content="https://raw.githubusercontent.com/karamelune/OC-P9-NinaCarducci/main/assets/images/nina/nina-landscape.webp" />
-
         <!-- Facebook OpenGraph -->
         <meta property="og:title" content="Nina Carducci - Photographe" />
         <meta
@@ -87,7 +78,7 @@
         <main>
             <div class="top-header">
                 <h1 class="name">Nina Carducci</h1>
-                <div class="nav">
+                <nav>
                     <ul>
                         <li><a href="#about">À propos</a></li>
                         <li><a href="#gallery">Galerie</a></li>
@@ -106,9 +97,9 @@
                             /></a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
-            <div id="header">
+            <header>
                 <div
                     id="carouselExampleIndicators"
                     class="carousel slide"
@@ -144,6 +135,7 @@
                                     ./assets/images/slider/1/ryoji-iwata-wUZjnOv7t0g-unsplash-xl.webp  1440w,
                                     ./assets/images/slider/1/ryoji-iwata-wUZjnOv7t0g-unsplash-xxl.webp 1920w
                                 "
+                                sizes="(max-width: 320px) 320px, (max-width: 480px) 480px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1440px) 1440px, 1920px"
                                 class="d-block w-100"
                                 alt="Photo d'un homme traversant un passage piéton" />
                         </div>
@@ -158,6 +150,7 @@
                                     ./assets/images/slider/2/nicholas-green-nPz8akkUmDI-unsplash-xl.webp  1440w,
                                     ./assets/images/slider/2/nicholas-green-nPz8akkUmDI-unsplash-xxl.webp 1920w
                                 "
+                                sizes="(max-width: 320px) 320px, (max-width: 480px) 480px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1440px) 1440px, 1920px"
                                 loading="lazy"
                                 class="d-block w-100"
                                 alt="Photo d'une foule" />
@@ -173,6 +166,7 @@
                                     ./assets/images/slider/3/edward-cisneros-3_h6-1NPDGw-unsplash-xl.webp  1440w,
                                     ./assets/images/slider/3/edward-cisneros-3_h6-1NPDGw-unsplash-xxl.webp 1920w
                                 "
+                                sizes="(max-width: 320px) 320px, (max-width: 480px) 480px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1440px) 1440px, 1920px"
                                 loading="lazy"
                                 class="d-block w-100"
                                 alt="Photo de mariage" />
@@ -199,8 +193,8 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
-            <div id="about">
+            </header>
+            <section id="about">
                 <div class="picture left">
                     <img
                         src="./assets/images/nina-m.webp"
@@ -209,7 +203,8 @@
                             ./assets/images/nina/nina-s.webp  320w,
                             ./assets/images/nina/nina-m.webp  768w,
                             ./assets/images/nina/nina-l.webp 1440w
-                        " />
+                        "
+                        sizes="(max-width: 320px) 320px, (max-width: 768px) 768px, 1440px" />
                 </div>
                 <div id="about-me">
                     <h2 class="about-me__title">A propos de moi</h2>
@@ -232,15 +227,15 @@
                         chaque fois que vous poserez les yeux sur vos photos.
                     </p>
                 </div>
-            </div>
-            <div id="gallery">
+            </section>
+            <section id="gallery">
                 <h2 class="title">Portfolio</h2>
                 <div class="container py-3">
                     <div class="gallery display-none">
                         <img
                             data-gallery-tag="Concert"
                             class="gallery-item"
-                            src="./assets/images/gallery/concerts/1/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+                            src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
                             loading="lazy"
                             alt="Photo d'un concert" />
                         <img
@@ -282,14 +277,7 @@
                         <img
                             data-gallery-tag="Concert"
                             class="gallery-item"
-                            src="./assets/images/gallery/concerts/2/austin-neill-hgO1wFPXl3I-unsplash-m.webp"
-                            srcset="
-                                ./assets/images/gallery/concerts/2/austin-neill-hgO1wFPXl3I-unsplash-m.webp  320w,
-                                ./assets/images/gallery/concerts/2/austin-neill-hgO1wFPXl3I-unsplash-s.webp  570w,
-                                ./assets/images/gallery/concerts/2/austin-neill-hgO1wFPXl3I-unsplash-s.webp  768w,
-                                ./assets/images/gallery/concerts/2/austin-neill-hgO1wFPXl3I-unsplash-m.webp 1024w,
-                                ./assets/images/gallery/concerts/2/austin-neill-hgO1wFPXl3I-unsplash-l.webp 1440w
-                            "
+                            src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
                             loading="lazy"
                             alt="Photo d'un chanteur" />
                         <img
@@ -317,8 +305,8 @@
                         </figcaption>
                     </figure>
                 </div>
-            </div>
-            <div id="services">
+            </section>
+            <section id="services">
                 <h2 class="title">Mes services</h2>
                 <div class="container">
                     <div class="service">
@@ -364,7 +352,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <div class="quote">
                 <figure>
                     <blockquote>
@@ -380,7 +368,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div id="contact">
+            <section id="contact">
                 <div class="container">
                     <div class="form-container">
                         <h6>Une question ? Une demande de devis ?</h6>
@@ -388,8 +376,7 @@
                             N’hésitez pas à m’écrire ! Je vous répondrais en
                             moins de 24 heures
                         </p>
-                        //
-                        <form action="" method="post">
+                        <form action="#" method="post">
                             <label for="nom">Nom</label>
                             <input type="text" name="nom" id="nom" />
                             <label for="email">Email</label>
@@ -410,7 +397,7 @@
                             loading="lazy" />
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
 
         <script
